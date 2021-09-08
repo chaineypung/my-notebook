@@ -1,6 +1,6 @@
 ## IE-Net
 
-**针对目前不同患者检测项目数存在差异，作者设计了一种不基于固定检测项目的网络。对每一种检测项目编码，通过矩阵运算转换，每一位患者的检测项目转换为统一维度的向量，再统一解码。训练网络时，因为每位患者检测项目不同，所以一次传入1位患者的数据(batch size=1)。**
+**针对目前不同患者检测项目数存在差异，作者设计了一种不基于固定检测项目的网络。对每一种检测项目编码，通过矩阵运算转换，每一位患者的检测项目转换为统一维度的向量，再统一解码。训练网络时，因为每位患者检测项目不同，所以一次传入1位患者的数据(batch size=1)，换句话说，以往我们训练网络的时候batch size是每次训练网络的数据个数，而在这里，指的是每一位患者的检测项目，batch size不表示多少位患者了。**
 
 **源代码链接**：[gyguo/IE-Net: official code of "Eliminating Indefiniteness of Clinical Spectrum for Better Screening COVID-19", accepted by IEEE Journal of Biomedical and Health Informatics (JBHI2021). (github.com)](https://github.com/gyguo/IE-Net)
 
