@@ -26,7 +26,9 @@ soft+固定阈值，效果不好
 
 ## 参考资料
 
-[识别座头鲸，Kaggle竞赛第一名解决方案解读 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/58496385?utm_source=qq&utm_medium=social&utm_oi=800716886307389440)
+[Humpback Whale Identification | Kaggle](https://www.kaggle.com/c/humpback-whale-identification/discussion/82366)
+
+
 
 
 
