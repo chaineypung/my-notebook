@@ -1,0 +1,2 @@
+soft label分为label smoothing和knowledge distillation。label smoothing的label是人为固定的，比如说0.9，0.2。而knowledge distillation的label是通过网络学习得到的，比如网络有teacher和student双模型，teacher输出经过softmax后和student的softmax后的东西求损失，student经过softmax后和原标签(hard label)求损失。
+
